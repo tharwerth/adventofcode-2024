@@ -2,7 +2,6 @@
 
 ## Project Structure
 ```
-.
 ├── cmd/
 │   └── main.go        # Main runner for all days
 ├── day01/

@@ -21,8 +21,10 @@ func main() {
 
 	switch day {
 	case 1:
-		fmt.Printf("Day 1 Problem: %v\n", day01.GetProblem()+"\n")
-		fmt.Printf("Day 1 Solution: %v\n", day01.Solution())
+		fmt.Printf("Day 1 Problem 1:\n%v\n\n", day01.GetProblem1())
+		fmt.Printf("Day 1 Solution 1: %d\n\n", day01.Solution1())
+		fmt.Printf("Day 1 Problem 2:\n%v\n\n", day01.GetProblem2())
+		fmt.Printf("Day 1 Solution 2: %d\n\n", day01.Solution2())
 	default:
 		fmt.Printf("Day %d not implemented yet\n", day)
 	}
